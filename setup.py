@@ -41,7 +41,7 @@ with open("README.md", encoding="utf-8") as readme:
             "diagrams",
             "graphviz2drawio",
         ],
-        packages=[],
+        packages=["kube_diagrams"],
         package_dir={},
         scripts=[
             "bin/kube-diagrams",
